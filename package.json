@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-cia-factbook",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CIA World Factbook MCP — country profiles from The World Factbook.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-3a90abe5fd7ceb00584005ee48103fbbcf0bb357c32fde8d3365bebf9c1fbbc0",
-    "sourceCommit": "3723e46c6d115bd4a1fd2175e6bf758555e7cb50"
+    "sourceHash": "v1-73423c61b443379ecfe548bdca27605dbfc7f9e0dd573720293a5769240725c9",
+    "sourceCommit": "b0a4b8e2f3f5b3a4c3f9f2c9a73f91b20d32ce11"
   }
 }

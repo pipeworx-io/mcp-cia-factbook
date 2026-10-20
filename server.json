@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/cia-factbook",
   "title": "Cia Factbook",
   "description": "CIA World Factbook MCP — country profiles from The World Factbook.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/cia-factbook",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-cia-factbook",
