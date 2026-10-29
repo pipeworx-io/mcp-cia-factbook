@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-cia-factbook",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "CIA World Factbook MCP — country profiles from The World Factbook.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-cia-factbook": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "cia-factbook"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-cia-factbook.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/cia-factbook",
   "pipeworx": {
-    "sourceHash": "v1-697f23c831b64f8d8a550124c696d7d593144883a2e74a59fdbd36a7125e337c",
-    "sourceCommit": "f1ef7a2f6b9cb1b8da1374ec2fcb28c661582b35"
+    "mode": "gateway",
+    "slug": "cia-factbook",
+    "gatewaySlug": "cia-factbook",
+    "sourceHash": "v1-a1f23aea2985de99984257974d520e5dae2d4c384eb084b420c15109319b3fe6",
+    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
   }
 }
