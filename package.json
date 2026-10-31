@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-cia-factbook",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "CIA World Factbook MCP — country profiles from The World Factbook.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "cia-factbook",
     "gatewaySlug": "cia-factbook",
-    "sourceHash": "v1-a1f23aea2985de99984257974d520e5dae2d4c384eb084b420c15109319b3fe6",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-1065f7db140759b8137ff95f0c66c0374937b8d46551b923ef1952c02f2e86f4",
+    "sourceCommit": "547a3983b42dacf4389ca474860b0a1dee8e6053"
   }
 }
